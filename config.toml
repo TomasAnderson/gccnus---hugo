@@ -1,0 +1,100 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+languageCode = "en-us"
+title = "GCC-NUS"
+theme = "creative"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "GCC-NUS"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Activities"
+			portfolio = "Events"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "GCC - NUS"
+		subtitle   = "[Lorem](//google.com) Founded in 2015, GCC-NUS is a nonprofit, nonpartisan organization for NUS students of all nationalities looking to engage China’s emergence as a global power."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "The Story of Us"
+		description = "[Lorem](//google.com) GCC connects future leaders from all nations and assists them in developing the skills and friendships necessary to succeed both in China and internationally.Our website is coming soon. If you know us, or have some work for us, feel free to drop an email at info@gccnus.org."
+		# buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "In GCC, you can..."
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Networking"
+            description = "GCC-NUS established a good relationship with China Business Centre, NUS Suzhou Research Institution, China Vanke, etc."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Attend talks"
+			description = "You will be ocasionally invited to talks and hear voice from leading figures and managers from China Business Centre and giant firms."
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Up to Date"
+            description = "We highly pay attention to social and economical movement in China and you can have a up-to-date news curator from Singapore view."
+
+        [[params.services.list]]
+            icon = "fa-heart"
+            title = "Know more friends"
+            description = "You can make more friends in NUS with same intertest in networking and seeking opportunities regarding China. "
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Sign up the upcoming events!"
+
+		[params.aside.button]
+			text = "Sign up now"
+			link = "https://www.facebook.com/pages/gccnus.org"
+
+	# Contact section
+	[params.contact]
+		headline = "Join us!"
+		description = "Ready to join GCC? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "talent@gccnus.org"
