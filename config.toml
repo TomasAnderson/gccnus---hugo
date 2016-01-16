@@ -41,7 +41,7 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "GCC - NUS"
-		subtitle   = "[Founded in 2008, Global China Connection (GCC) has become the world’s largest China-focused professional youth network, with chapters at more than sixty universities across North America, Europe, and Asia, including those at world-renowned universities such as Harvard, Yale, Peking, and Tsinghua. As a student-run organization, GCC is determined to establish and maintain long-lasting personal relationships between young leaders from China and the rest of the world. Along with our geographic reach, we are able to connect thousands of students, recent-graduates, and professionals through our extensive network. There are no other organizations in the world that can boast such a large network between Chinese and international students, institutions, and companies. Global China Connection – National University of Singapore Chapter (GCC-NUS) is a non-pro t student organisation for all NUS students of all nationalities looking to engage in China’s emergence as a global power. We aim to develop deep and trusting personal relationships between young leaders from China and those from the rest of the world. GCC also provides networking opportunities for academic and industrial experts to directly interact with the talented pool of NUS students."
+		subtitle   = "Global China Connection – National University of Singapore Chapter (GCC-NUS) is a non-pro t student organisation for all NUS students of all nationalities looking to engage in China’s emergence as a global power. We aim to develop deep and trusting personal relationships between young leaders from China and those from the rest of the world. GCC also provides networking opportunities for academic and industrial experts to directly interact with the talented pool of NUS students."
 		buttonText = "Find out more"
 
 
@@ -65,16 +65,6 @@ theme = "creative"
 			icon = "fa-paper-plane"
 			title = "Attend talks"
 			description = "You will be ocasionally invited to talks and hear voice from leading figures and managers from China Business Centre and giant firms."
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We highly pay attention to social and economical movement in China and you can have a up-to-date news curator from Singapore view."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Know more friends"
-            description = "You can make more friends in NUS with same intertest in networking and seeking opportunities regarding China. "
 
 
     # Portfolio modals
