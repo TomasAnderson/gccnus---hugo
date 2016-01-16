@@ -46,35 +46,10 @@ theme = "creative"
 
 
 	# About section
-	[params.about]
-		headline    = "The Story of Us"
-		description = "[Lorem](//google.com) GCC connects future leaders from all nations and assists them in developing the skills and friendships necessary to succeed both in China and internationally.Our website is coming soon. If you know us, or have some work for us, feel free to drop an email at info@gccnus.org."
+	# [params.about]
+	#	headline    = "The Story of Us"
+	#	description = "[Lorem](//Cgoogle.com) GCC connects future leaders from all nations and assists them in developing the skills and friendships necessary to succeed both in China and internationally.Our website is coming soon. If you know us, or have some work for us, feel free to drop an email at info@gccnus.org."
 		# buttonText  = "Get started!"
-
-
-	# Service section
-	[params.services]
-		headline = "In GCC, you can..."
-
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Networking"
-            description = "GCC-NUS established a good relationship with China Business Centre, NUS Suzhou Research Institution, China Vanke, etc."
-
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Attend talks"
-			description = "You will be ocasionally invited to talks and hear voice from leading figures and managers from China Business Centre and giant firms."
-
-		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We highly pay attention to social and economical movement in China and you can have a up-to-date news curator from Singapore view."
-
-        [[params.services.list]]
-            icon = "fa-heart"
-            title = "Know more friends"
-            description = "You can make more friends in NUS with same intertest in networking and seeking opportunities regarding China. "
 
 
     # Portfolio modals
@@ -86,15 +61,35 @@ theme = "creative"
 
     # Aside section
 	[params.aside]
-		headline = "Sign up the upcoming events!"
+		headline = "Sign up for the upcoming events!"
 
 		[params.aside.button]
 			text = "Sign up now"
-			link = "https://www.facebook.com/pages/gccnus.org"
+			link = "www.facebook.com/pages/gccnus.org"
 
 	# Contact section
 	[params.contact]
 		headline = "Join us!"
 		description = "Ready to join GCC? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
-		phone = "123-456-6789"
+		phone = "WeChat ID: GCC-NUS"
+		# like us on wechat and find out more
 		email = "talent@gccnus.org"
+		# indicate your area of interest and attach your CV along with the email
+
+
+	# Service section
+	[params.services]
+		headline = "Out Partners"
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "China Business Centre – NUS Business School"
+			description = ""
+
+		[[params.services.list]]
+            icon = "fa-newspaper-o"
+            title = "Business China"
+            description = ""
+
+
+
