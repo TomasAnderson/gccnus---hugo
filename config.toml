@@ -49,27 +49,22 @@ theme = "creative"
 	# [params.about]
 	#	headline    = "The Story of Us"
 	#	description = "[Lorem](//Cgoogle.com) GCC connects future leaders from all nations and assists them in developing the skills and friendships necessary to succeed both in China and internationally.Our website is coming soon. If you know us, or have some work for us, feel free to drop an email at info@gccnus.org."
-		# buttonText  = "Get started!"
+	# buttonText  = "Get started!"
 
-
-<<<<<<< HEAD
-=======
 	# Service section
-	[params.services]
-		headline = "In GCC, you can..."
+	# [params.services]
+		# # headline = "In GCC, you can..."
 
-        [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Networking"
-            description = "GCC-NUS established a good relationship with China Business Centre, NUS Suzhou Research Institution, China Vanke, etc."
+  #       [[params.services.list]]
+  #           icon = "fa-diamond"
+  #           title = "Networking"
+  #           description = "GCC-NUS established a good relationship with China Business Centre, NUS Suzhou Research Institution, China Vanke, etc."
 
-        [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Attend talks"
-			description = "You will be ocasionally invited to talks and hear voice from leading figures and managers from China Business Centre and giant firms."
+  #       [[params.services.list]]
+		# 	icon = "fa-paper-plane"
+		# 	title = "Attend talks"
+		# 	description = "You will be ocasionally invited to talks and hear voice from leading figures and managers from China Business Centre and giant firms."
 
-
->>>>>>> 6673f8b799e41fdc02d78f614c9dc8df35d13ce6
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Client"
