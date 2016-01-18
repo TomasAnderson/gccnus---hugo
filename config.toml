@@ -41,7 +41,7 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "GCC - NUS"
-		subtitle   = "[Lorem](//google.com) Founded in 2015, GCC-NUS is a nonprofit, nonpartisan organization for NUS students of all nationalities looking to engage China’s emergence as a global power."
+		subtitle   = "Global China Connection – National University of Singapore Chapter (GCC-NUS) is a non-pro t student organisation for all NUS students of all nationalities looking to engage in China’s emergence as a global power. We aim to develop deep and trusting personal relationships between young leaders from China and those from the rest of the world. GCC also provides networking opportunities for academic and industrial experts to directly interact with the talented pool of NUS students."
 		buttonText = "Find out more"
 
 
@@ -52,6 +52,24 @@ theme = "creative"
 		# buttonText  = "Get started!"
 
 
+<<<<<<< HEAD
+=======
+	# Service section
+	[params.services]
+		headline = "In GCC, you can..."
+
+        [[params.services.list]]
+            icon = "fa-diamond"
+            title = "Networking"
+            description = "GCC-NUS established a good relationship with China Business Centre, NUS Suzhou Research Institution, China Vanke, etc."
+
+        [[params.services.list]]
+			icon = "fa-paper-plane"
+			title = "Attend talks"
+			description = "You will be ocasionally invited to talks and hear voice from leading figures and managers from China Business Centre and giant firms."
+
+
+>>>>>>> 6673f8b799e41fdc02d78f614c9dc8df35d13ce6
     # Portfolio modals
 	[params.portfolio.modal]
         client = "Client"
